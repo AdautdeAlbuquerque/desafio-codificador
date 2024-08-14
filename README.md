@@ -18,6 +18,8 @@ Este projeto foi desenvolvido como parte do programa ONE Oracle oferecido pela A
 
 **Aviso de Texto Vazio:** Alerta o usuário caso os botões sejam clicados sem que haja texto inserido.
 
+**Caracteres especiais, acentos e letras maíuculas:** Caso o usuário insira qualquer uma desses elementos para criptrografar ou descriptografar, é dado um alerta informando que o texto não pode ser convertido e deve ser adequado. Conforme exigência do desafio.
+
 🛠️**Tecnologias Utilizadas**
 
 **HTML:** Estrutura do conteúdo.
