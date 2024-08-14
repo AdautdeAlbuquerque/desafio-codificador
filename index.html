@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografador e Decriptografador</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <main class="main_container">
+        <div class="container">
+            <header class="cabecalho">
+                <img id="cabecalho_img" src="/imagens/cadeado.png" alt="imagem de um cadeado">
+                <h1>Codificador de Texto</h1>
+            </header>
+            <div class="criptografar">
+                <textarea name="texto" class="texto" id="texto" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
+                <div class="criptografado">
+                        <div class="textocriptografado" id="txt_criptografado">
+                        <img id="criptografado_img" src="/imagens/lupa.png" alt="imagem de uma lupa">
+                        <h2 id="aviso">Nenhuma mensagem encontrada</h2>
+                        <p id="mensagem">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="aviso">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>     
+            <div class="botoes">
+                <button class="btn_criptografar" type="button" onclick="criptografar()">Criptografar</button>
+                <button class="btn_descriptografar" type="button" onclick="descriptografar()">Descriptografar</button>
+            </div>
+        </div>
+        <footer class="rodape">
+            <h3>Desenvolvido por Adaut de Albuquerque</h3>
+        </footer>
+    </main>
+    <script src="criptografador.js"></script>
+</body>
+</html>
+
