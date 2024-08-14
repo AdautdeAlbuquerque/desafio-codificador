@@ -63,6 +63,7 @@ function descriptografar() {
     outPut.innerHTML = '<textarea readonly class="resultado">' + resultadoDescripto + '</textarea>';
     mostrarBotaoCopiar();
     mostrarBotaoReiniciar();
+    removerMargemDireitaBtnCriptografar();
 }
 
 function copiar() {
