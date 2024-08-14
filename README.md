@@ -40,7 +40,7 @@ No geral, estou muito satisfeito com o resultado. O desafio me incentivou a expa
 
 📋**Como Executar o Projeto**
 
-[(https://desafio-codificador-liart.vercel.app)](https://desafio-codificador-liart.vercel.app)
+https://desafio-codificador-lac.vercel.app
 ![image](https://github.com/user-attachments/assets/b748d7cd-0688-4392-af89-273170eb44a0)
 ![image](https://github.com/user-attachments/assets/64eb46c1-46f6-41dc-bcdf-f096de8f0da0)
 ![image](https://github.com/user-attachments/assets/a7b90ed6-6475-480d-b189-e157dd135f83)
