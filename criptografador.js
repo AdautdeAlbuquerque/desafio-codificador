@@ -29,6 +29,12 @@ function mostrarBotaoReiniciar() {
 function criptografar() {
     var texto = textInput.value.trim();
 
+    // Verificação de caracteres inválidos
+    if (/[^a-z\s]/.test(texto)) {
+        alert("Texto inválido! Por favor, insira apenas letras minúsculas sem acento e sem caracteres especiais.");
+        return;
+    }
+
     if (!texto) {
         alert("Por favor, insira algum texto para criptografar.");
         return; 
@@ -48,6 +54,11 @@ function criptografar() {
 
 function descriptografar() {
     var texto = textInput.value.trim(); 
+
+    if (/[^a-z\s]/.test(texto)) {
+        alert("Texto inválido! Por favor, insira apenas letras minúsculas sem acento e sem caracteres especiais.");
+        return;
+    }
 
     if (!texto) {
         alert("Por favor, insira algum texto para descriptografar.");
